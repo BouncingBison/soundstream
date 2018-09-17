@@ -1,0 +1,28 @@
+{
+  "name": "soundstream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd server && node server.js",
+    "client": "cd record_crate && npm start",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BouncingBison/soundstream.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BouncingBison/soundstream/issues"
+  },
+  "homepage": "https://github.com/BouncingBison/soundstream#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.0.1"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1"
+  }
+}
